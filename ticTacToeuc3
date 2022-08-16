@@ -1,4 +1,4 @@
-package RFP;
+package com.Brigelabz;
 
 import java.util.Scanner;
 
@@ -37,7 +37,7 @@ public 	 class ticTacToe{
 
 	    public static void main(String[] args) {
 	        System.out.println("Welcome to Tic Tac Toe Game");
-	        createBoard();
+	        createEmptyBoard();
 	        selectLetter();
 	        showBoard();
 	    }
